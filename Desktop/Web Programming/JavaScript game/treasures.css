@@ -1,0 +1,119 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #262335;
+    color: #F4D06F;
+}
+
+#DisplayBoard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    color: #FA26A0;
+}
+
+#DisplayBoard p {
+    margin: 0;
+    padding: 0.5em;
+    background-color: #8B1E3F;
+    border-radius: 0.4em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#grid {
+    display: grid;
+    /* W3Schools (12 March 2025) CSS repeat() Function. Available at:https://www.w3schools.com/cssref/func_repeat.php (Accessed: 12 March 2025).*/
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0.2em;
+    width: 80vmin;
+    height: 80vmin;
+    margin: 0 auto;
+}
+
+#MyButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+#performanceIndex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    background-color: #8B1E3F;
+    margin-left: 23em;
+    margin-right: 23em;
+    border-radius: 0.4em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    background-color: #3D348B;
+    color: #F4D06F;
+    border: none;
+    border-radius: 0.4em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #5643FD;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #151515;
+    transform: scale(0.95);
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #151515;
+    color: #F4D06F;
+    font-size: 1em;
+    border-top: 2px solid #FA26A0;
+}
+
+#copyright {
+    font-weight: bold;
+    margin: 0;
+}
+
+section {
+    margin-top: 0.8em;
+    font-weight: bold;
+}
+
+.cell {
+    width: 100%;
+    height: 100%;
+    border: 0.1em solid #FA26A0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color: #F4D06F;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+.cell img {
+    width: 2.5em;
+    height: 2.5em;
+    object-fit: contain;
+    display: block;
+}
