@@ -58,11 +58,11 @@ if (!isset($_SESSION['CREATED'])) {
 
 
 // Database connection details
-$db_hostname = "studdb.csc.liv.ac.uk";
-$db_database = "hslcabal";
-$db_username = "hslcabal";
-$db_password = "Zaradi09!";
-$db_charset = "utf8mb4";
+$db_hostname = "insert";
+$db_database = "insert";
+$db_username = "insert";
+$db_password = "insert";
+$db_charset = "insert";
 
 $dsn = "mysql:host=$db_hostname;dbname=$db_database;charset=$db_charset";
 
